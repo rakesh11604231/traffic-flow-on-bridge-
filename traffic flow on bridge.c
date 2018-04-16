@@ -84,7 +84,7 @@ void bridge_leave_south(struct bridge *b)
 	pthread_mutex_unlock(&b->lock);
     printf("SOUTH car has left the bridge\n");
 }
-
+//
 int main() {
 	struct bridge b;
 	pthread_t tid[10];
